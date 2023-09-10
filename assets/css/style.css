@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    margin-bottom: 300px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.container-icon{
+    flex: 30%;
+    font-family: 'Lobster', cursive;
+    color: #e57c20;
+    font-size: 40px;
+    cursor: context-menu;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.menu {
+    flex: 70%;
+    text-align: right;
+    padding-right: 5%;
+    position: fixed;
+    width: 100%;
+}
+
+.menu-item{
+    color: #e57c20;
+    font-size: 18px;
+    padding: 20px 25px;
+    font-weight: 500;
+}
+
+.menu-item:hover {
+    color: #bb2214;
+    border-top: 3px solid #bb2214;
+}
+
+#botao-contact {
+    background-color: #e57c20;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-left: 5%;
+}
+
+#botao-contact:hover {
+    background-color: #bb2214;
+    transition: 0.4s;
+    border: none;
+}
+
+.conteudo {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: white;
+    align-items: center;
+    justify-content: center;
+    padding-top: 8px;
+    margin-bottom: 30px;
+}
+
+.conteudo-texto {
+    margin-left: 5%;
+    flex: 30%;
+    text-align: left;
+}
+
+.conteudo-texto strong {
+    color: #e57c20;
+}
+
+.conteudo-texto h2 {
+    font-weight: 900;
+    font-size: 70px;
+    color: #bb2214;
+    margin-bottom: 15px;
+}
+
+.conteudo-texto p {
+    color: #858585;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+.botao-pedido {
+    display: inline-block;
+    background-color: #bb2214;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.botao-pedido:hover {
+    background-color: #e57c20;
+    transition: 0.4s;
+    border: none;
+    transform: scale(1.1);
+}
+
+.conteudo-img{
+    margin-top: 100px;
+    flex: 60%;
+    text-align: right;
+    margin-right: 5%;
+}
+
+.conteudo-img img {
+    width: 700px;
+    max-width: 90%;
+}
+
+.conteudo-about {
+    flex: 45%;
+    margin-right: 5%;
+}
+
+.conteudo-img-about {
+    flex: 45%;
+    margin-left: 5%;
+}
+
+.conteudo-img-about img {
+    max-width: 90%;
+}
+
+.conteudo-about h2 {
+    font-size: 40px;
+    color: #e57c20;
+    border-left: 6px solid #bb2214;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
+
+.conteudo-about p {
+    font-size: 17px;
+    font-weight: 400;
+    color: #858585;
+    margin-bottom: 15px;
+}
+
+.conteudo-pizzas {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.conteudo-pizzas h2 {
+    color: #e57c20;
+    border-left: 6px solid #bb2214;
+    font-size: 40px;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 30px;   
+    margin-top: 8px;
+}
+
+.conteudo-pizzas img {
+    width: 100%;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.pizza-info {
+    display: inline-block;
+    background-color: white;
+    margin: 10px 15px;
+    width: 320px;
+    height: auto;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+.pizza-info:hover {
+   transform: scale(1.1);
+   transition: 0.4s;
+   cursor: pointer;
+}
+
+.pizza-info h3 {
+    color: #e57c20;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.pizza-info p {
+    word-wrap: break-word;
+    color: #858585;
+    margin-bottom: 10px;
+}
+
+#preco1 , #preco2 , #preco3 , #preco4 {
+    color: #bb2214;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.footer {
+    margin-top: 100px;
+    padding: 50px;
+    text-align: center;
+    font-weight: 500;
+    color: #858585;
+}

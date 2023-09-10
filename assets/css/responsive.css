@@ -1,0 +1,73 @@
+@media only screen and (max-width: 1176px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    .container {
+        position: relative;
+        margin-bottom: 0;
+    }
+
+    .menu {
+        position: relative;
+        display: none;
+    }
+
+    .container-icon{
+        text-align: center;
+    }
+
+    .conteudo {
+        padding: 20px;
+    }
+
+    .conteudo-texto p {
+        text-align: justify;
+    }
+
+    .botao-pedido {
+        width: 100%;
+        text-align: center;
+    }
+
+    .conteudo-img-about {
+        text-align: center;
+    }
+
+    .conteudo-about {
+        flex: 100%;
+        align-items: center;
+        justify-content: center;
+        text-align: justify;
+    }
+
+    .conteudo-about h2 {
+        text-align: center;
+        border: none;
+    }
+
+    .pizza-info {
+        width: 100%;
+        margin: 5px;
+    }
+
+    .conteudo-pizzas {
+        margin: 0;
+        margin-top: 40px;
+        text-align: center;
+        border: default;
+    }
+
+    .conteudo-pizzas {
+        width: 100%;
+    }
+
+    .conteudo-pizzas h2 {
+        border: none;
+    }
+
+    .footer {
+        margin-top: 40px;
+    }
+}
